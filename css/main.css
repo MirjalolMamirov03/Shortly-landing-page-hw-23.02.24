@@ -10,6 +10,8 @@
     --light-white: #EFF1F7;
     --green: #2BD0D0;
     --light-green: #9AE3E3;
+    --footer-bg: #232127;
+    --footer-list-color: #BFBFBF;
     --white: #FFF;
     --black: #000;
     --Poppins: "Poppins";
@@ -61,6 +63,7 @@ ul {
     font-family: var(--Poppins);
     font-size: 15px;
     font-weight: 700;
+    transition: .5s;
 }
 
 .all-btn:active {
@@ -192,7 +195,6 @@ ul {
 }
 
 .form-text {
-
     width: 769px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -206,7 +208,6 @@ ul {
     font-weight: 500;
     line-height: 36px;
     letter-spacing: 0.15px;
-
 }
 
 .form-btn {
@@ -218,10 +219,15 @@ ul {
     font-family: var(--Poppins);
     font-size: 20px;
     font-weight: 700;
+    transition: .5s;
 }
 
 .form-btn:active {
     background-color: var(--light-green);
+}
+
+.form-btn {
+    cursor: pointer;
 }
 
 /* //Site-Form */
@@ -375,6 +381,84 @@ ul {
     line-height: 48px;
     letter-spacing: -1px;
 }
+
 /* Boost-section */
 
 /* //SITE-MAIN */
+
+
+/* FOOTER */
+.site-footer {
+    width: 100%;
+    padding: 72px 0px;
+    background-color: var(--footer-bg);
+}
+
+.footer-flex {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    margin-right: 261px;
+}
+
+.footer-menu {
+    display: flex;
+    column-gap: 85px;
+    margin-right: 100px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-item__header {
+    margin-bottom: 12px;
+    text-emphasis-color: var(--white);
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+}
+
+.footer-item__header:nth-of-type(odd){
+    color: var(--white);
+}
+
+.footer-link {
+    color: var(--footer-list-color);
+    font-family: var(--Poppins);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.234px;
+    transition: .5s;
+}
+
+.footer-link:active {
+    color: var(--green);
+}
+
+.footer-icons {
+    width: 168px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icon {
+    color: var(--white);
+    transition: .5s;
+}
+
+.footer-icon:active {
+    color: var(--green);
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+}
+
+/* //FOOTER */

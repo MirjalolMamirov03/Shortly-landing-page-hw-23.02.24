@@ -171,8 +171,6 @@ ul {
     font-size: 20px !important;
 }
 
-.all-btn {}
-
 .hero-image {
     position: absolute;
     top: 0;
@@ -229,3 +227,123 @@ ul {
 /* //Site-Form */
 
 /* //SITE-HERO */
+
+
+/* SITE-MAIN */
+.site-main {
+    padding-top: 172px;
+    padding-bottom: 164px;
+    background-color: var(--light-white);
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    color: var(--light-black);
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+}
+
+.main-desc {
+    max-width: 540px;
+    width: 100%;
+    color: var(--dark-white);
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.123px;
+    margin-bottom: 100px !important;
+}
+
+.main-cards {
+    width: 100%;
+    padding-top: 108px;
+    padding-bottom: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main-card {
+    padding-top: 77px;
+    padding-bottom: 41px;
+    padding-left: 32px;
+    padding-right: 32px;
+    position: relative;
+    background-color: var(--white);
+    border-radius: 5px;
+    position: relative;
+}
+
+.card-img__box {
+    width: 88px;
+    height: 88px;
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    position: absolute;
+    top: -44px; 
+    left: 32px;
+}
+
+.brand {
+    position: absolute;
+    top: -44px;
+    left: 0;
+
+}
+
+.detail {
+    position: absolute;
+    top: 0;
+    left: 380px;
+}
+
+.fully {
+    position: absolute;
+    right: 0;
+    bottom: -44px;
+}
+
+.card-title {
+    margin-bottom: 12px;
+    color: var(--light-black);
+    font-family: var(--Poppins);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-text {
+    max-width: 286px;
+    width: 100%;
+    color: var(--dark-white);
+    font-family: var(--Poppins);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.cards-line {
+    width: 100%;
+    height: 8px;
+    background-color: var(--green);
+}
+
+/* //SITE-MAIN */

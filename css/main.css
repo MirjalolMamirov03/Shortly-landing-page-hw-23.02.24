@@ -230,10 +230,13 @@ ul {
 
 
 /* SITE-MAIN */
-.site-main {
+.site-main {    
+    background-color: var(--light-white);
+}
+
+.advanced-section {
     padding-top: 172px;
     padding-bottom: 164px;
-    background-color: var(--light-white);
 }
 
 .main-flex {

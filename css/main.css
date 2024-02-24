@@ -96,7 +96,8 @@ ul {
     column-gap: 29px;
 }
 
-.list-link, .link-text {
+.list-link,
+.link-text {
     color: var(--dark-white);
     font-family: var(--Poppins);
     font-size: 15px;
@@ -114,3 +115,117 @@ ul {
 }
 
 /* //SITE-HEADER */
+
+
+
+/* SITE-HERO */
+.site-hero {
+    width: 100%;
+    padding-bottom: 210px;
+    position: relative;
+    /* background-color: blue; */
+}
+
+.hero-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero-info {
+    width: 100%;
+    padding-top: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-title {
+    max-width: 580px;
+    width: 100%;
+    height: 180px;
+    color: var(--light-black);
+    font-family: var(--Poppins);
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: -2px;
+    margin-bottom: 5px;
+}
+
+.hero-desc {
+    max-width: 540px;
+    width: 100%;
+    color: var(--dark-white);
+    font-family: var(--Poppins);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    margin-bottom: 38px;
+}
+
+.hero-btn {
+    font-size: 20px !important;
+}
+
+.all-btn {}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    right: -123px;
+}
+
+/* Site-Form */
+.site-form {
+    width: 100%;
+    padding: 52px 64px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--dark-blue);
+    display: flex;
+    column-gap: 24px;
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+}
+
+.form-text {
+
+    width: 769px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    border-radius: 10px;
+    background-color: var(--white);
+    box-shadow: none;
+    color: var(--light-black);
+    font-family: var(--Poppins);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+
+}
+
+.form-btn {
+    padding: 18px 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--green);
+    color: var(--white);
+    font-family: var(--Poppins);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.form-btn:active {
+    background-color: var(--light-green);
+}
+
+/* //Site-Form */
+
+/* //SITE-HERO */

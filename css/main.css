@@ -99,6 +99,10 @@ ul {
     column-gap: 29px;
 }
 
+.box-list__avtive {
+    transform: scale(0);
+}
+
 .list-link,
 .link-text {
     color: var(--dark-white);

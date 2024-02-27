@@ -1,5 +1,23 @@
 /* MEDIA */
 
+
+:root {
+    --light-black: #34313D;
+    --dark-blue: #3A3054;
+    --blue: #4B3F6B;
+    --dark-white: #9E9AA8;
+    --light-white: #EFF1F7;
+    --green: #2BD0D0;
+    --light-green: #9AE3E3;
+    --footer-bg: #232127;
+    --footer-list-color: #BFBFBF;
+    --white: #FFF;
+    --black: #000;
+    --Poppins: "Poppins";
+}
+
+
+
 /* descktop */
 @media (max-width: 1440px) {
     html {
@@ -109,18 +127,62 @@
     }
 
     .menu {
+        padding: 40px 0px;
+        border-radius: 28px;
         position: fixed;
         flex-direction: column;
         row-gap: 24px;
         width: 327px;
-        height: 383px;
         background-color: #3A3054;
-        z-index: -1;
-        top: 0;
-        left: 0;
+        z-index: 100;
+        top: 96px;
+        left: 30%;
         align-items: center;
         justify-content: center;
-        /* transform: scale(0);         */
+        color: var(--white) !important;
+        font-size: 18px !important;
+        transform: scale(0);        
+    }
+
+    .nav-menu:active ~ .menu {
+        transform: scale(1);
+    }
+
+    .active-btn {
+        padding: 10px 104px !important;
+        color: var(--white) !important;
+        font-size: 18px !important;
+    }
+
+    .link-text__active {
+        color: var(--white) !important;
+        font-size: 18px !important;
+        font-family: var(--Poppins) ;
+        font-weight: 700;
+    }
+
+    .menu-link__active {
+        color: var(--white) !important;
+        font-size: 18px !important;
+        font-family: var(--Poppins) ;
+        font-weight: 700;
+    }
+
+    .box-list__avtive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 30px;
+        transform: unset !important;
+    }
+
+    .menu-active__line {
+        height: 1px;
+        width: 279px;
+        background-color: var(--light-green);
+        opacity: .25;
+        transform: scale(1);
     }
 
     .header-logo {
@@ -133,16 +195,18 @@
     }
 
     .list {
-        /* transform: scale(0); */
+        transform: scale(0);
     }
 
-    
 
 
 
 
 
 
+
+
+    /* Site-hero */
     .hero-flex {
         position: fixed;
         flex-direction: column;
@@ -211,7 +275,7 @@
 
     .brand {
         position: absolute;
-        top:  0 !important;
+        top: 0 !important;
         left: 0;
 
     }
@@ -258,7 +322,7 @@
 
     .footer-list {
         align-items: center;
-       
+
     }
 
 
@@ -336,7 +400,7 @@
 
     .brand {
         position: absolute;
-        top:  0 !important;
+        top: 0 !important;
         left: 0;
 
     }
@@ -383,7 +447,7 @@
 
     .footer-list {
         align-items: center;
-       
+
     }
 }
 
